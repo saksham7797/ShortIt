@@ -1,0 +1,29 @@
+package com.saksham.ShortIt.Entity;
+
+import java.time.LocalDateTime;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+@Table(name = "url_mapping")
+public class UrlMapping {
+    @Id 
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    private int id;
+
+    private String originalUrl;
+    private String shortCode;
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
+    private int accessCount = 0;
+}
