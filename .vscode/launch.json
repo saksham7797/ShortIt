@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ShortItApplication<ShortIt>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.saksham.ShortIt.ShortItApplication",
+            "projectName": "ShortIt",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
