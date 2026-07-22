@@ -1,8 +1,7 @@
 # ShortIt 🔗
 
 A RESTful URL Shortening Service built with **Spring Boot** and **MySQL**. ShortIt lets you shorten long URLs, retrieve them, update them, delete them, and track access statistics — all through a clean REST API.
-
----
+This is part of https://roadmap.sh/projects/url-shortening-service
 
 ## Tech Stack
 
